@@ -1,0 +1,159 @@
+{
+  "metrics": {
+    "base": {
+      "word_overlap": 0.07901445840421602,
+      "length_ratio": 1.6487975146625822,
+      "structure_pct": 100.0,
+      "avg_output_len": 78.45
+    },
+    "finetuned": {
+      "word_overlap": 0.08525096040900472,
+      "length_ratio": 1.699148674982633,
+      "structure_pct": 100.0,
+      "avg_output_len": 82.4
+    }
+  },
+  "sample_size": 20,
+  "results": [
+    {
+      "category": "analysis",
+      "vague": "evaluate API design approaches",
+      "expected": "Compare REST, GraphQL, and gRPC API design approaches used in enterprise applications from 2020-2024. Analyze adoption trends, performance metrics, and developer satisfaction scores. Present findings ",
+      "base_model": "Optimized Prompt: \n\n\"Could you provide an evaluation of different API design approaches, focusing on their benefits, potential drawbacks, and practical applications in software development? Please consider at least three widely-used API design methodologies for comparison.\"",
+      "finetuned": "Optimized Prompt: \n\n**Evaluate Common API Design Approaches for Web Services**\n\nSpecific Objectives:\n1. Compare and contrast various API design methodologies (e.g., RESTful API, GraphQL, SOAP).\n2. Assess the benefits and limitations of each approach in terms of scalability, security, and performance.\n3. Identify best practices and common pitfalls associated with each design methodology.\n4. Provide recommendations on which approach would be most suitable for a hypothetical web service application.\n\nContextual Details:\n- The evaluation should consider real-world applications and industry standards.\n- Assume a web service application with varying requirements in terms of data complexity and user interaction.\n- Focus on both traditional and modern API design paradigms.\n\nAudience:\n- Developers and architects who need guidance on selecting an optimal API design approach for their projects.\n- Professionals involved in API development and deployment in various industries."
+    },
+    {
+      "category": "translation",
+      "vague": "adapt this marketing copy for Hindi speakers",
+      "expected": "Translate this marketing copy into Hindi for digital ads targeting Mumbai metropolitan area consumers aged 25-45. Maintain brand voice consistency using provided glossary terms. Deliver as 100-word Fa",
+      "base_model": "Optimized Prompt: \nCould you please adapt the marketing copy for Hindi-speaking audiences? Specifically, I need the text translated and adapted into Hindi, ensuring it is culturally appropriate and maintains the original message and tone. Please provide the English version of the marketing copy as a reference.",
+      "finetuned": "Optimized Prompt: \n\nCould you please adapt the marketing copy to be more comprehensible for Hindi speakers? Specifically, I need suggestions or a draft in Hindi for the following English marketing copy:\n\n[Original English Marketing Copy]\n\nContext: This prompt is aimed at marketing professionals who want to ensure their messages reach a broader audience, particularly those who speak Hindi as their primary language. Constraints include maintaining the core message of the original copy while adapting it to be easily understood by Hindi-speaking consumers."
+    },
+    {
+      "category": "translation",
+      "vague": "translate this to Japanese",
+      "expected": "Translate the following social media post to Japanese. Use a engaging and informal tone, use platform-appropriate language. Use terminology consistent with technology industry standards. Focus on prac",
+      "base_model": "Optimized Prompt: \nCould you please translate the following text into Japanese? Please provide the original text for translation.",
+      "finetuned": "Optimized Prompt: \nCould you please translate the following sentence into Japanese? Please provide the original English text for translation."
+    },
+    {
+      "category": "instruction",
+      "vague": "tutorial on configuring a firewall",
+      "expected": "Create an interactive tutorial for configuring a firewall. Each section should: explain the concept, show a working code example, provide a practice exercise, and include a 'common mistakes' callout b",
+      "base_model": "Optimized Prompt: \n\n**Title:** Step-by-Step Guide to Configuring an Effective Firewall Setup\n\n**Objective:** To provide a comprehensive tutorial on how to configure and set up a firewall for enhanced network security.\n\n**Target Audience:** IT professionals, system administrators, and cybersecurity enthusiasts interested in improving their network security measures.\n\n**Content Outline:**\n\n1. **Introduction to Firewalls**\n   - Definition and importance of firewalls\n   - Types of firewalls (software-based, hardware-based)\n\n2. **Understanding Network Traffic**\n   - Different types of network traffic (data packets)\n   - Common protocols (TCP/IP, UDP, HTTP/HTTPS)\n\n3. **Choosing the Right Firewall**\n   - Factors to consider when selecting a firewall (budget, ease of use, compatibility)\n   - Popular firewall solutions (e.g., Cisco ASA, Palo Alto Networks, etc.)\n\n4. **Firewall Configuration Basics**\n   - Setting up basic rules (allow/deny lists)\n   - Common configuration settings (logging, alerts, etc.)\n\n5. **Advanced Firewall Features**\n   - Implementing advanced security features (NAT, IPsec, etc.)\n   - Understanding and configuring virtual private networks (VPNs)\n\n6. **Testing and Monitoring Your Firewall**\n   - How to test",
+      "finetuned": "Optimized Prompt: \n\n**Title:** Comprehensive Tutorial on Configuring Network Firewalls\n\n**Objective:** To provide a detailed guide for IT professionals and network administrators on the configuration of firewalls, including common settings, best practices, and troubleshooting tips.\n\n**Content Outline:**\n\n1. **Introduction to Firewalls**\n   - Definition and importance of firewalls\n   - Types of firewalls (software, hardware)\n\n2. **Firewall Configuration Basics**\n   - Understanding firewall rules and policies\n   - Common components of firewall configurations\n\n3. **Step-by-Step Guide to Configuring a Firewall**\n   - Selecting firewall software and hardware\n   - Setting up initial configuration parameters\n   - Adding and managing rules and exceptions\n   - Monitoring and logging activities\n   - Security hardening techniques\n\n4. **Best Practices and Tips**\n   - Regularly updating firewall rules\n   - Implementing access control lists (ACLs)\n   - Ensuring compliance with industry standards (e.g., NIST, CIS)\n\n5. **Troubleshooting Common Issues**\n   - Handling failed connections and denied traffic\n   - Diagnosing configuration errors\n   - Resolving firewall performance issues\n\n6. **Conclusion**\n   - Recap of key points\n   - Final thoughts on maintaining"
+    },
+    {
+      "category": "editing",
+      "vague": "rewrite proposal",
+      "expected": "Rewrite the following proposal to be more clear and organized. Specific requirements: reduce by 30%, add specific examples. Preserve all factual content and the original intent. The target audience is",
+      "base_model": "Optimized Prompt: \n\nCould you provide a revised version of the project proposal? Specifically, I need enhancements focusing on the budget section, including detailed cost estimations and potential savings strategies. Additionally, please address the market analysis by incorporating more recent industry trends and competitor insights.",
+      "finetuned": "Optimized Prompt: \n\n\"Could you please provide a revised version of the project proposal, including detailed budget projections and an enhanced executive summary? This revision should aim to strengthen our chances of securing funding for this initiative.\"\n\nExplanation:\n1. **Clarity**: The original prompt was vague. \"Rewrite proposal\" is replaced with a more specific request: \"revised version of the project proposal.\"\n2. **Specificity**: Added specific elements like \"detailed budget projections\" and \"enhanced executive summary\" to make the request clearer.\n3. **Structure**: Incorporated a courteous request language (\"Could you please...\") to make it more professional and inviting.\n4. **Context and Constraints**: Added the goal of enhancing the chances of securing funding, which provides context and a specific objective for the revision."
+    },
+    {
+      "category": "instruction",
+      "vague": "how to writing unit tests",
+      "expected": "Write a step-by-step guide for writing unit tests. Target audience: junior Python developers. Include: prerequisites, each step as a numbered instruction with code blocks where applicable, verificatio",
+      "base_model": "Optimized Prompt: \n\nFor a software development project, could you provide detailed guidance on how to effectively write unit tests? Please include examples and best practices for testing various programming languages and application types.",
+      "finetuned": "Optimized Prompt: \n\nFor a software development project, could you provide detailed guidance on how to effectively write unit tests? Specifically, include examples of best practices, common pitfalls to avoid, and tools or frameworks commonly used for implementing unit testing in various programming languages."
+    },
+    {
+      "category": "roleplay",
+      "vague": "roleplay as a CTO",
+      "expected": "Roleplay as a CTO being interviewed for a tech leadership podcast. Answer 3 technical strategy questions with 150-200 words each. Focus on cloud infrastructure decisions, team scaling challenges, and ",
+      "base_model": "Optimized Prompt: \n\n\"Create a detailed character profile for a Chief Technology Officer (CTO) in a fictional tech company. Include the CTO's background, key responsibilities, and notable achievements. Additionally, design a scenario where the CTO must handle a major IT crisis, and describe their decision-making process and actions taken.\"\n\nThis prompt adds structure, context, and specific requirements, ensuring a clear and effective response while preserving the original intent of roleplaying as a CTO.",
+      "finetuned": "Optimized Prompt: \n\n\"Create a detailed character profile for a Chief Technology Officer (CTO) in the tech industry. Include the CTO's background, key responsibilities, professional accomplishments, and a sample interaction or conversation with a team member or client. The profile should be 250-300 words long and include specific examples of technical challenges faced and solutions implemented.\"\n\nThis version adds clarity by specifying the role (CTO), industry (tech industry), and provides additional detail such as a word count and requested content elements (background, responsibilities, accomplishments, and an example interaction). It also specifies the format (a character profile) and includes constraints on the length and type of information to be included, making it more actionable and focused."
+    },
+    {
+      "category": "q_and_a",
+      "vague": "what is domain-driven design",
+      "expected": "Define domain-driven design (DDD) by identifying its 3 core principles, listing 2 key benefits for software development teams, and providing 1 concrete example of DDD implementation in a banking appli",
+      "base_model": "Optimized Prompt: \n\nCould you provide an in-depth explanation of Domain-Driven Design (DDD) and its key principles? Specifically, please include examples of how DDD has been successfully applied in real-world software development projects.",
+      "finetuned": "Optimized Prompt: \n\nCould you provide an overview of Domain-Driven Design (DDD) with examples? Specifically, how does DDD differ from other software development methodologies in terms of focusing on business domains?"
+    },
+    {
+      "category": "coding",
+      "vague": "implement real-time sync",
+      "expected": "Design a real-time sync architecture for a collaborative document editor supporting 100+ concurrent users. Specify component relationships, data flow patterns, and conflict resolution strategies. Incl",
+      "base_model": "Optimized Prompt: \n\n**Objective:** Develop an implementation for real-time synchronization across multiple devices and platforms.\n\n**Details:**\n- **Technology Stack:** Identify suitable technologies (e.g., WebSockets, REST APIs) for real-time data synchronization.\n- **Platform Compatibility:** Ensure compatibility with at least three different operating systems or device types (e.g., iOS, Android, Windows).\n- **User Experience:** Design a user interface that allows users to easily enable or disable real-time syncing features.\n- **Performance Metrics:** Define key performance indicators (KPIs) to measure the effectiveness of the real-time sync system (e.g., latency, error rates, throughput).\n- **Testing Strategy:** Outline a comprehensive testing plan including unit tests, integration tests, and stress tests.\n- **Deployment Plan:** Develop a roadmap for deploying the real-time sync solution in stages, considering factors like feature readiness and user acceptance.\n\n**Target Audience:** Developers, Product Managers, UX Designers, Quality Assurance Engineers",
+      "finetuned": "Optimized Prompt: \n\nTitle: Implementation of Real-Time Sync Functionality\n\nObjective: Develop and integrate a real-time synchronization feature into our application to ensure seamless data updates across multiple devices and platforms in real-time.\n\nTarget Audience: Developers, Product Managers, Designers\n\nContext: Enhancing user experience by enabling quick and accurate updates of shared data without manual intervention.\n\nConstraints:\n1. Ensure the solution supports major operating systems (e.g., iOS, Android).\n2. Minimize latency to maintain a response time of less than 500 milliseconds.\n3. Implement robust error handling and data integrity checks.\n4. Optimize for both mobile and desktop environments.\n5. Ensure compatibility with existing database structures.\n\nDeliverables:\n- Detailed design document outlining the architecture and implementation strategy.\n- Code repository containing the developed real-time sync functionality.\n- Documentation covering integration steps and best practices.\n- Performance testing results and findings.\n\nExpected Outcomes:\n- Improved user satisfaction through faster and more reliable data synchronization.\n- Enhanced collaboration and productivity among users.\n- Scalability to accommodate future growth and additional features."
+    },
+    {
+      "category": "analysis",
+      "vague": "analyze traffic patterns for capacity planning",
+      "expected": "Traffic Capacity Risk Assessment**\n\nAnalyze current traffic patterns to identify capacity bottlenecks with high probability/impact scores. Focus on peak-hour congestion points and seasonal variations.",
+      "base_model": "Optimized Prompt: \nFor a comprehensive analysis of traffic patterns to support capacity planning, please review and summarize the current traffic flow data across different times of the day and days of the week at [specific location or area], including peak hours and off-peak periods. Please provide insights on how these patterns can inform the optimal allocation of resources to ensure smooth operations and prevent bottlenecks.",
+      "finetuned": "Optimized Prompt: \n\"Analyze current traffic patterns within [specific location or industry] to inform capacity planning strategies. Please provide a comprehensive report including peak hours, average daily volumes, and any notable trends over the past [specify time period]. Targeted at improving resource allocation efficiency.\""
+    },
+    {
+      "category": "coding",
+      "vague": "help with my REST API",
+      "expected": "Review my Python Flask REST API code for security vulnerabilities and performance bottlenecks. Focus on authentication endpoints and database query optimization. Target audience: senior backend develo",
+      "base_model": "Optimized Prompt: \n\nSubject: Assistance with REST API Development\n\nContext: I am in need of assistance to develop an API using the REST (Representational State of Resource) framework. Specifically, I need guidance on:\n\n1. Designing the API endpoints and their corresponding HTTP methods.\n2. Choosing appropriate data formats for input and output.\n3. Implementing authentication and authorization mechanisms.\n4. Ensuring API security and handling potential vulnerabilities.\n\nPlease provide any additional information or resources you think would be helpful for me to get started with this project.",
+      "finetuned": "Optimized Prompt: \n\nCould you provide guidance on optimizing my REST API for better performance and security? Specifically, I need suggestions on implementing rate limiting, securing endpoints with OAuth2, and improving database queries to enhance response times."
+    },
+    {
+      "category": "coding",
+      "vague": "build a content management system",
+      "expected": "Design a PHP-based content management system with role-based access control (RBAC) for a marketing team of 15 users. Include MySQL database schema, authentication module, and admin dashboard. Delivera",
+      "base_model": "Optimized Prompt: \n\nTitle: Development of a Comprehensive Content Management System (CMS) for an E-commerce Website\n\nObjective: To develop a robust CMS tailored for an e-commerce website that will facilitate easy content updates, manage products, handle user profiles, and ensure efficient site performance.\n\nRequirements:\n1. User-Friendly Interface for both Admin and End Users\n2. Scalability to accommodate future growth in content volume and user base\n3. Integration with popular e-commerce platforms (e.g., Shopify, WooCommerce)\n4. Advanced Search Functionality for quick content retrieval\n5. Security Features including data encryption and role-based access control\n6. Responsive Design for optimal viewing on various devices\n7. Compatibility with major web browsers (Chrome, Firefox, Safari, Edge)\n\nTarget Audience: Web Developers, IT Professionals, E-commerce Entrepreneurs\n\nContext: The development of a CMS is crucial for managing the dynamic nature of content in an e-commerce environment, ensuring that websites can adapt to changing market demands and customer expectations. This project aims to create a scalable and secure solution that enhances user experience and boosts operational efficiency.",
+      "finetuned": "Optimized Prompt: \n\nCould you design and develop a robust Content Management System (CMS) for our website with the following key features:\n- User roles and permissions management\n- Document version control \n- Integration with social media platforms\n- Responsive design for various devices\n- Secure data storage and retrieval\n- Analytics dashboard for performance tracking\n\nThe CMS should be optimized for ease of use by our team of 10 users and should be scalable to accommodate future growth. Please include a timeline and budget estimate in your proposal."
+    },
+    {
+      "category": "q_and_a",
+      "vague": "explain microservices architecture",
+      "expected": "Describe microservices architecture for senior software engineers transitioning from monolithic systems. Provide: 1) 25-word executive summary, 2) 200-word comparison with monolithic architecture incl",
+      "base_model": "Optimized Prompt: \n\nCould you provide an explanation of microservices architecture, including its key components, benefits, and potential challenges? Please use examples or real-world applications to illustrate your points.",
+      "finetuned": "Optimized Prompt: \n\nCould you provide an explanation of microservices architecture, including its key components, benefits, and challenges? Please include real-world examples to illustrate these concepts."
+    },
+    {
+      "category": "analysis",
+      "vague": "analyze content performance across channels",
+      "expected": "Analyze Q3 2024 content performance across LinkedIn, Twitter, and Instagram using historical data from Q1-Q2 2024. Identify top-performing content types, engagement trends, and audience demographics. ",
+      "base_model": "Optimized Prompt: \n\n\"Analyze the performance metrics of content across various channels. Please provide a detailed report including key performance indicators (KPIs) such as engagement rate, conversion rates, and reach for social media, email campaigns, and website traffic sources. The analysis should cover at least the past three months and include recommendations for improvement based on findings.\"\n\nThis version adds clarity, specificity, and structure by:\n- Specifying the goal (analyze performance metrics)\n- Detailing the scope (across various channels)\n- Identifying specific KPIs to track\n- Providing time frame (past three months)\n- Requesting actionable recommendations",
+      "finetuned": "Optimized Prompt: \n\n**Objective:** Analyze the performance of content across various marketing channels.\n\n**Target Audience:** Marketing and Content Strategy Team\n\n**Context:** Evaluate the effectiveness of recent content campaigns distributed through different digital platforms (e.g., social media, email, website).\n\n**Specific Requirements:**\n1. **Channels to Include:** Social Media, Email, Website.\n2. **Performance Metrics:** Engagement rate (likes, shares, comments), Conversion rates (click-throughs, sign-ups, purchases), Reach (impressions, views).\n3. **Time Frame:** Recent period (e.g., last month or quarter).\n4. **Reporting Format:** Comprehensive report including visual analytics (charts, graphs) and detailed analysis.\n\nBy ensuring these specifics, the task becomes clearer and more actionable for the Marketing and Content Strategy Team."
+    },
+    {
+      "category": "analysis",
+      "vague": "evaluate open source tools",
+      "expected": "Compare 5 leading open source project management tools (Jira, GitLab, Redmine, Taiga, OpenProject) in a feature matrix. Analyze their competitive positioning across pricing, scalability, and integrati",
+      "base_model": "Optimized Prompt: \nTitle: Evaluation of Open Source Tools for Project X\n\nObjective: To conduct an evaluation of open-source software solutions suitable for implementation in Project X, focusing on functionality, ease of integration, cost-effectiveness, and community support.\n\nDetails:\n1. **Project Context**: Project X (please provide more details if available)\n2. **Tool Categories**: \n   - Development Environment Tools\n   - Database Management Tools\n   - Security Tools\n   - Collaboration Tools\n3. **Evaluation Criteria**:\n   - Functionality: Does the tool meet the project requirements?\n   - Ease of Integration: How straightforward is it to integrate with existing systems and technologies?\n   - Cost-effectiveness: What are the potential costs associated with using the tool over its lifecycle?\n   - Community Support: Is there a strong and active user community for troubleshooting and knowledge sharing?\n4. **Timeline**: [Provide a deadline or timeframe for the evaluation]\n5. **Report Requirements**: \n   - Summary of findings\n   - Recommendations for selected tools\n   - Comparative analysis of top contenders\n6. **Target Audience**: Developers, IT Managers, and Project Stakeholders involved in Project X\n\nContextual Details: This evaluation aims to identify and recommend open-source tools that can enhance Project X",
+      "finetuned": "Optimized Prompt: \n\n\"Could you provide an evaluation of open-source project management tools available on the market? Specifically, please consider tools like Jira, Trello, Asana, and Monday.com in terms of their features, ease of use, cost, and community support.\"\n\nThis prompt:\n1. Preserves the original intent of evaluating open-source tools.\n2. Specifies the type of tools (project management) to narrow down the scope.\n3. Lists specific tools (Jira, Trello, Asana, Monday.com) for comparison.\n4. Adds context around what aspects to evaluate (features, ease of use, cost, community support).\n5. Maintains a clear and concise structure."
+    },
+    {
+      "category": "q_and_a",
+      "vague": "explain reverse proxy",
+      "expected": "Compare 3 common reverse proxy myths vs. realities for sysadmins. Include evidence, sources, and practical examples. Format: bullet points, 150-200 words total.",
+      "base_model": "Optimized Prompt:\nCould you provide an explanation of how a reverse proxy works? Please include its primary functions, benefits, and common use cases in web hosting environments.",
+      "finetuned": "Optimized Prompt: \n\nCould you provide an explanation of the functionality and benefits of a reverse proxy server, including its main components, how it works, and potential use cases in web security and performance optimization?"
+    },
+    {
+      "category": "brainstorming",
+      "vague": "what could I do with learning projects",
+      "expected": "Suggest 12 projects or experiments related to learning projects. For each: name, one-paragraph description, required resources, timeline estimate, and success metric. Rank by effort-to-impact ratio, b",
+      "base_model": "Optimized Prompt: \n\nCould you provide some specific project ideas and potential benefits of learning through projects in education? Additionally, how can integrating projects enhance critical thinking and practical skills in students?\n\nThis prompt asks for detailed project ideas, emphasizes the educational value of projects, and seeks to understand their impact on enhancing critical thinking and practical skills.",
+      "finetuned": "Optimized Prompt: \n\nCould you suggest some project ideas or potential applications for a project-based learning experience in the fields of technology, science, or education? Please include examples or brief descriptions."
+    },
+    {
+      "category": "instruction",
+      "vague": "tutorial on implementing CI/CD",
+      "expected": "Create an interactive tutorial for implementing CI/CD. Each section should: explain the concept, show a working code example, provide a practice exercise, and include a 'common mistakes' callout box. ",
+      "base_model": "Optimized Prompt: \n\n\"Developers, could you please provide a comprehensive tutorial on how to implement Continuous Integration and Continuous Deployment (CI/CD) in a software development project? Specifically, I am looking for step-by-step instructions, best practices, and any recommended tools or platforms that can help streamline the process.\"",
+      "finetuned": "Optimized Prompt: \n\n\"Developers, can you provide a detailed tutorial on how to implement Continuous Integration and Continuous Deployment (CI/CD) in a software development project? Please include step-by-step instructions, best practices, and common pitfalls to avoid. The tutorial should be suitable for intermediate-level developers looking to enhance their CI/CD implementation skills.\""
+    },
+    {
+      "category": "brainstorming",
+      "vague": "startup ideas in fintech",
+      "expected": "Generate 15 fintech startup concepts targeting underserved markets. Each idea must include: problem statement, target demographic, revenue model, and competitive advantage. Focus on mobile-first solut",
+      "base_model": "Optimized Prompt: \n\n\"Could you suggest innovative fintech startup ideas that leverage emerging technologies such as artificial intelligence, blockchain, or Internet of Things (IoT)? Please provide examples with a brief description of how they address specific market needs.\"",
+      "finetuned": "Optimized Prompt: \n\n\"Could you outline three innovative fintech startup ideas that address current market gaps and explain their potential impact on the financial services industry? Please provide a brief overview of each concept including its unique value proposition and target market.\"\n\nThis version includes:\n- Specific request for three ideas\n- Emphasis on addressing market gaps\n- Mention of potential impact on the financial services industry\n- Request for unique value propositions and target markets"
+    },
+    {
+      "category": "coding",
+      "vague": "create a error handling framework",
+      "expected": "Build a centralized error handling framework for Python backend services. Include: custom exception hierarchy, structured error responses, logging integration, and automatic error reporting. Maintain ",
+      "base_model": "Optimized Prompt: \n\n**Title:** Development of an Error Handling Framework for Software Application\n\n**Objective:** To develop a comprehensive error handling framework for software applications to ensure robustness and reliability in system performance.\n\n**Target Audience:** Developers and System Engineers working on software development projects.\n\n**Contextual Details:**\n- The framework should address common types of errors encountered in software development, such as runtime errors, input validation failures, database connection issues, and exceptions.\n- The framework should incorporate best practices from existing error handling methodologies, including try-catch blocks, logging mechanisms, and user feedback systems.\n- It is expected that the error handling framework will improve system resilience and maintain user experience by minimizing disruptions during operation.\n\n**Requirements:**\n1. Define the categories and severity levels of potential errors.\n2. Implement a unified error-handling strategy across different modules of the application.\n3. Include detailed documentation on how to integrate the error handling framework into existing software projects.\n4. Conduct a series of test cases to validate the effectiveness of the error handling mechanism.\n5. Ensure compatibility with various programming languages and development environments.\n\n**Constraints:**\n- Aim for simplicity and ease of use in implementation.\n- The framework should not significantly increase the overall complexity or maintenance burden on the software project.\n- Consider",
+      "finetuned": "Optimized Prompt: \n\nTitle: Development of an Error Handling Framework for Web Application\n\nObjective: To develop a comprehensive error handling framework that ensures robustness and reliability in web applications.\n\nKey Components:\n1. Identification of Common Errors: List and categorize typical errors encountered in web applications (e.g., database errors, network errors, file not found errors).\n2. Error Handling Strategy: Develop a strategy for capturing, logging, and responding to these errors.\n3. Robust Logging Mechanism: Implement a robust logging system that records all error events with necessary metadata.\n4. User Experience Optimization: Ensure that users receive informative and actionable error messages.\n5. Integration with Existing Systems: Design the framework to integrate seamlessly with existing web application infrastructure.\n6. Testing and Validation: Conduct thorough testing to validate the effectiveness and efficiency of the error handling framework.\n7. Documentation and Training: Provide clear documentation and training materials for developers on how to effectively use the error handling framework.\n\nTarget Audience: Developers working on web application development\n\nConstraints:\n- The framework should be scalable and adaptable to different web application environments.\n- It should minimize downtime and ensure minimal impact on user experience.\n- Consideration should be given to future-proofing the framework against emerging errors and issues."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "total": 1081,
+  "train": 863,
+  "val": 109,
+  "test": 109,
+  "categories": {
+    "coding": 166,
+    "brainstorming": 147,
+    "editing": 173,
+    "instruction": 142,
+    "analysis": 158,
+    "q_and_a": 156,
+    "translation": 76,
+    "roleplay": 63
+  },
+  "system_prompt": "You are a prompt engineering expert. Transform vague, underspecified prompts into clear, specific, and effective ones. Preserve the original intent while adding concrete details, structure, and actionable guidance. Output only the optimized prompt — no prefixes, no labels, no explanations.",
+  "instruction": "Optimize the following prompt to be clear, specific, and effective. Preserve the original intent while adding concrete details, structure, and actionable guidance."
+}
