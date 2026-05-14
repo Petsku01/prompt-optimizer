@@ -1,0 +1,7 @@
+# Large model files - use HuggingFace or Colab download instead
+models/lora/adapter_model.safetensors
+prompt-optimizer-lora.zip
+training_config.json:Zone.Identifier
+prompt-optimizer-lora.zip:Zone.Identifier
+*.pyc
+__pycache__/
